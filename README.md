@@ -1,15 +1,12 @@
 # BUSCADOR AUTOCOMPLETE
 💬FORMULÁRIO BUSCADOR COM SUGESTÃO!
 
-[![GitHub Repo stars](https://img.shields.io/badge/VILHALVA-GITHUB-03A9F4?logo=github)](https://github.com/VILHALVA)
-[![GitHub Repo stars](https://img.shields.io/badge/MEUS-CURSOS-03A9F4?logo=github)](https://github.com/VILHALVA?tab=repositories&q=CURSO&type=public&language=&sort=) <br>
-
-<img src="FOTO.png" align="center" width="300"> <br>
+<img src="FOTO.png" align="center" width="500"> <br>
 
 ## DESCRIÇÃO:
 Este é um código HTML e JavaScript que cria uma barra de pesquisa com funcionalidade de autocompletar. Vamos dividi-lo em seções para entender melhor:
 
-### Parte HTML:
+### HTML:
 1. **DOCTYPE e HTML Tag:**
    - `<!DOCTYPE html>`: Define o tipo de documento como HTML5.
    - `<html lang="pt-BR">`: Define o início do documento HTML e especifica o idioma como português do Brasil.
@@ -20,7 +17,7 @@ Este é um código HTML e JavaScript que cria uma barra de pesquisa com funciona
 3. **Body Section:**
    - Contém uma estrutura de barra de pesquisa com um campo de entrada (`input`), uma lista de sugestões (`list`), um ícone de pesquisa e links para scripts externos (`sugestoes.js` e `script.js`).
 
-### Parte JavaScript (`script.js`):
+### JS:
 1. **Seleção de Elementos do DOM:**
    - `const searchWrapper`, `inputBox`, `sugestBox`, `icon`, `linkTag`: Seleciona elementos do DOM para manipulação no script.
 
@@ -36,7 +33,7 @@ Este é um código HTML e JavaScript que cria uma barra de pesquisa com funciona
 4. **Função `showSuggestions`:**
    - Exibe as sugestões na lista de autocompletar.
 
-### Parte CSS (`style.css`):
+### CSS:
 1. **Estilo Geral:**
    - Configura o estilo global, como margens, preenchimentos e configuração da fonte Poppins do Google Fonts.
 
@@ -52,7 +49,36 @@ Este é um código HTML e JavaScript que cria uma barra de pesquisa com funciona
 5. **Estilo do Ícone de Pesquisa:**
    - Configura o estilo do ícone de pesquisa, incluindo posição, altura, largura, alinhamento e cor.
 
-### Parte de Dados (Array de Sugestões):
+### ARRAY DE SUGESTÕES:
    - Um array chamado `suggestions` contém palavras sugeridas para autocompletar, como "Canal", "YouTube", "Dev Sandrin", etc.
 
 Este código cria uma barra de pesquisa interativa que fornece sugestões à medida que o usuário digita, e ao selecionar uma sugestão, ele pode clicar no ícone de pesquisa para realizar uma busca no Google.
+
+## COMO USAR?
+* Clone o repositório para o seu sistema local:
+
+```bash
+git clone https://github.com/VILHALVA/BUSCADOR-AUTOCOMPLETE.git
+```
+
+* Navegue até o diretório do projeto.
+
+```bash
+cd BUSCADOR-AUTOCOMPLETE
+```
+
+* Descompacte o arquivo ZIP (se você baixou manualmente):
+
+```bash
+unzip BUSCADOR-AUTOCOMPLETE.zip
+```
+* Abra o arquivo `index.html` em seu navegador de preferência.
+
+## NÃO SABE?
+- Entendemos que para manipular arquivos em `HTML`, `CSS` e outras linguagens relacionadas, é necessário possuir conhecimento nessas áreas. Para auxiliar nesse aprendizado, oferecemos cursos gratuitos disponíveis:
+* [Curso de HTML e CSS](https://github.com/VILHALVA/CURSO-DE-HTML-E-CSS)
+* [Curso de JavaScript](https://github.com/VILHALVA/CURSO-DE-JAVASCRIPT)
+* [Confira mais cursos](https://github.com/VILHALVA?tab=repositories&q=+topic:CURSO)
+
+## CREDITOS:
+- [PROJETO CRIADO PELO VILHALVA](https://github.com/VILHALVA)
